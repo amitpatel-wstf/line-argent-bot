@@ -1,10 +1,10 @@
-
+import "dotenv/config"
 import TelegramBot from 'node-telegram-bot-api'
  
 // Replace 'YOUR_BOT_TOKEN' with your bot's API token from BotFather
 const token = process.env.BOT_TOKEN || "";
 
-// Create a bot instance
+// Create a bot instanceLQitdRSw4Me6c1BPv8bbtkqBA
 // const bot = new TelegramBot(token, { polling: true });
 const bot = new TelegramBot(token, {
   polling: true,
